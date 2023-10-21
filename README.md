@@ -1,66 +1,117 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# LogViewer [![Packagist License][badge_license]](LICENSE.md) [![For Laravel][badge_laravel]][link-github-repo]
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+[![Github Workflow Status][badge_build]][link-github-status]
+[![Coverage Status][badge_coverage]][link-scrutinizer]
+[![Scrutinizer Code Quality][badge_quality]][link-scrutinizer]
+[![SensioLabs Insight][badge_insight]][link-insight]
+[![Github Issues][badge_issues]][link-github-issues]
 
-## About Laravel
+[![Packagist][badge_package]][link-packagist]
+[![Packagist Release][badge_release]][link-packagist]
+[![Packagist Downloads][badge_downloads]][link-packagist]
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+*By [ARCANEDEV&copy;](http://www.arcanedev.net/)*
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+This package allows you to manage and keep track of each one of your log files.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+> **NOTE: You can also use LogViewer as an API.**
 
-## Learning Laravel
+Official documentation for LogViewer can be found at the [_docs folder](_docs/1.Installation-and-Setup.md).
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Feel free to check out the [releases](https://github.com/ARCANEDEV/LogViewer/releases), [license](LICENSE.md), and [contribution guidelines](CONTRIBUTING.md).
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Features
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- A great Log viewer API.
+- Laravel `5.x` to `10.x` are supported.
+- Ready to use (Views, Routes, controllers &hellip; Out of the box) [Note: No need to publish assets]
+- View, paginate, filter, download and delete logs.
+- Load a custom logs storage path.
+- Localized log levels.
+- Logs menu/tree generator.
+- Grouped logs by dates and levels.
+- Customized log levels icons (font awesome by default).
+- Works great with big logs !!
+- Well documented package (IDE Friendly).
+- Well tested (100% code coverage with maximum code quality).
 
-## Laravel Sponsors
+## Table of contents
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+1. [Installation and Setup](_docs/1.Installation-and-Setup.md)
+2. [Configuration](_docs/2.Configuration.md)
+3. [Usage](_docs/3.Usage.md)
 
-### Premium Partners
+### Supported localizations
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+> Dear artisans, i'm counting on you to help me out to add more translations ( ^_^)b
 
-## Contributing
+| Local   | Language              |
+|---------|-----------------------|
+| `ar`    | Arabic                |
+| `bg`    | Bulgarian             |
+| `bn`    | Bengali               |
+| `de`    | German                |
+| `en`    | English               |
+| `es`    | Spanish               |
+| `et`    | Estonian              |
+| `fa`    | Farsi                 |
+| `fr`    | French                |
+| `he`    | Hebrew                |
+| `hu`    | Hungarian             |
+| `hy`    | Armenian              |
+| `id`    | Indonesian            |
+| `it`    | Italian               |
+| `ja`    | Japanese              |
+| `ko`    | Korean                |
+| `ms`    | Malay                 |
+| `nl`    | Dutch                 |
+| `pl`    | Polish                |
+| `pt-BR` | Brazilian Portuguese  |
+| `ro`    | Romanian              |
+| `ru`    | Russian               |
+| `si`    | Sinhalese             |
+| `sv`    | Swedish               |
+| `th`    | Thai                  |
+| `tr`    | Turkish               |
+| `uk`    | Ukrainian             |
+| `zh`    | Chinese (Simplified)  |
+| `zh-TW` | Chinese (Traditional) |
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Contribution
 
-## Code of Conduct
+Any ideas are welcome. Feel free to submit any issues or pull requests, please check the [contribution guidelines](CONTRIBUTING.md).
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Security
 
-## Security Vulnerabilities
+If you discover any security related issues, please email arcanedev.maroc@gmail.com instead of using the issue tracker.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## Credits
 
-## License
+- [ARCANEDEV][link-author]
+- [All Contributors][link-contributors]
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## PREVIEW
+
+![Dashboard](https://raw.githubusercontent.com/ARCANEDEV/LogViewer/master/_screenshots/1-dashboard.jpg)
+![Logs list](https://raw.githubusercontent.com/ARCANEDEV/LogViewer/master/_screenshots/2-logs-list.jpg)
+![Single log](https://raw.githubusercontent.com/ARCANEDEV/LogViewer/master/_screenshots/3-single-log.jpg)
+
+[badge_laravel]:      https://img.shields.io/badge/Laravel-5.x%20to%2010.x-orange.svg?style=flat-square
+[badge_license]:      https://img.shields.io/packagist/l/arcanedev/log-viewer.svg?style=flat-square
+[badge_build]:        https://img.shields.io/github/workflow/status/ARCANEDEV/LogViewer/run-tests?style=flat-square
+[badge_coverage]:     https://img.shields.io/scrutinizer/coverage/g/ARCANEDEV/LogViewer.svg?style=flat-square
+[badge_quality]:      https://img.shields.io/scrutinizer/g/ARCANEDEV/LogViewer.svg?style=flat-square
+[badge_insight]:      https://img.shields.io/sensiolabs/i/d6b4587a-e00d-4dac-98db-f979731fdc4d.svg?style=flat-square
+[badge_issues]:       https://img.shields.io/github/issues/ARCANEDEV/LogViewer.svg?style=flat-square
+[badge_package]:      https://img.shields.io/badge/package-arcanedev/log--viewer-blue.svg?style=flat-square
+[badge_release]:      https://img.shields.io/packagist/v/arcanedev/log-viewer.svg?style=flat-square
+[badge_downloads]:    https://img.shields.io/packagist/dt/arcanedev/log-viewer.svg?style=flat-square
+
+[link-author]:        https://github.com/arcanedev-maroc
+[link-github-status]: https://github.com/ARCANEDEV/LogViewer/actions
+[link-github-repo]:   https://github.com/ARCANEDEV/LogViewer
+[link-github-issues]: https://github.com/ARCANEDEV/LogViewer/issues
+[link-contributors]:  https://github.com/ARCANEDEV/LogViewer/graphs/contributors
+[link-packagist]:     https://packagist.org/packages/arcanedev/log-viewer
+[link-scrutinizer]:   https://scrutinizer-ci.com/g/ARCANEDEV/LogViewer/?branch=master
+[link-insight]:       https://insight.sensiolabs.com/projects/d6b4587a-e00d-4dac-98db-f979731fdc4d
