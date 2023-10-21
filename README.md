@@ -92,9 +92,9 @@ If you discover any security related issues, please email arcanedev.maroc@gmail.
 
 ## PREVIEW
 
-![Dashboard](https://raw.githubusercontent.com/ARCANEDEV/LogViewer/master/_screenshots/1-dashboard.jpg)
-![Logs list](https://raw.githubusercontent.com/ARCANEDEV/LogViewer/master/_screenshots/2-logs-list.jpg)
-![Single log](https://raw.githubusercontent.com/ARCANEDEV/LogViewer/master/_screenshots/3-single-log.jpg)
+![Dashboard](_screenshots/1-dashboard.jpg)
+![Logs list](_screenshots/2-logs-list.jpg)
+![Single log](_screenshots/3-single-log.jpg)
 
 [badge_laravel]:      https://img.shields.io/badge/Laravel-5.x%20to%2010.x-orange.svg?style=flat-square
 [badge_license]:      https://img.shields.io/packagist/l/arcanedev/log-viewer.svg?style=flat-square
