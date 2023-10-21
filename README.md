@@ -96,22 +96,3 @@ If you discover any security related issues, please email arcanedev.maroc@gmail.
 ![Logs list](https://raw.githubusercontent.com/ARCANEDEV/LogViewer/master/_screenshots/2-logs-list.jpg)
 ![Single log](https://raw.githubusercontent.com/ARCANEDEV/LogViewer/master/_screenshots/3-single-log.jpg)
 
-[badge_laravel]:      https://img.shields.io/badge/Laravel-5.x%20to%2010.x-orange.svg?style=flat-square
-[badge_license]:      https://img.shields.io/packagist/l/arcanedev/log-viewer.svg?style=flat-square
-[badge_build]:        https://img.shields.io/github/workflow/status/ARCANEDEV/LogViewer/run-tests?style=flat-square
-[badge_coverage]:     https://img.shields.io/scrutinizer/coverage/g/ARCANEDEV/LogViewer.svg?style=flat-square
-[badge_quality]:      https://img.shields.io/scrutinizer/g/ARCANEDEV/LogViewer.svg?style=flat-square
-[badge_insight]:      https://img.shields.io/sensiolabs/i/d6b4587a-e00d-4dac-98db-f979731fdc4d.svg?style=flat-square
-[badge_issues]:       https://img.shields.io/github/issues/ARCANEDEV/LogViewer.svg?style=flat-square
-[badge_package]:      https://img.shields.io/badge/package-arcanedev/log--viewer-blue.svg?style=flat-square
-[badge_release]:      https://img.shields.io/packagist/v/arcanedev/log-viewer.svg?style=flat-square
-[badge_downloads]:    https://img.shields.io/packagist/dt/arcanedev/log-viewer.svg?style=flat-square
-
-[link-author]:        https://github.com/arcanedev-maroc
-[link-github-status]: https://github.com/ARCANEDEV/LogViewer/actions
-[link-github-repo]:   https://github.com/ARCANEDEV/LogViewer
-[link-github-issues]: https://github.com/ARCANEDEV/LogViewer/issues
-[link-contributors]:  https://github.com/ARCANEDEV/LogViewer/graphs/contributors
-[link-packagist]:     https://packagist.org/packages/arcanedev/log-viewer
-[link-scrutinizer]:   https://scrutinizer-ci.com/g/ARCANEDEV/LogViewer/?branch=master
-[link-insight]:       https://insight.sensiolabs.com/projects/d6b4587a-e00d-4dac-98db-f979731fdc4d
